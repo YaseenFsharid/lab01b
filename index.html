@@ -1,30 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>communication servay</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
+
 <body>
-    <header>
-      <h1>communication sarvay</h1>
-      <nav>
-          <ul class="nav">
-              <li>YOUR NAME IS <p id="name"></p></li>
-              <li>YOUR AGE IS<p id ="age"></p></li>
-              <li>YOUR CARRER IS <p id ="carrer"></p></li>
-          </ul>
-      </nav>
+    <header style=" background-color: navajowhite;">
+        <h1 style="text-align: center; color: darkkhaki;">communication sarvay</h1>
+      
     </header>
-    <main>
-    <article id="article">
-    
-    </article>
+    <main style="background-color: steelblue;">
+
+        <nav>
+            <ul >
+                <li  style="
+                font-size: 15px;
+                color: darkkhaki;
+                text-decoration:none;
+                padding-right: 22%; background-color: burlywood;">
+                    whats your name ? 
+                </li>
+                <li style="
+                font-size: 15px;
+                color: darkkhaki;
+                text-decoration:none;
+                padding-right: 22%; background-color: blue;"> what is your age ?
+                </li>
+                <li style="
+                font-size: 15px;
+                color: darkkhaki;
+                text-decoration:none;
+                padding-right: 22%; background-color: pink;"> what is your carrer ?
+                </li>
+                <li style="
+                font-size: 15px;
+                color: darkkhaki;
+                text-decoration:none;
+                padding-right: 22%; background-color: sandybrown;" > what is your back ground ?
+            </li>
+            </ul>
+        </nav>
     </main>
     <footer>
 
     </footer>
-    <script src="index.js"></script>
+    <script>
+        var name = prompt("please enter your name");
+        console.log(name);
+        var age = prompt("please enter your age");
+        console.log(age);
+        var carrer = prompt("please enter your proffosion");
+        console.log(carrer);
+        var backgou =prompt("please enter your background");  
+        console.log(backgou);
+        alert ( "welcome " + name + "your age is : "+ age +"your proffesion is : "+carrer +" your background is :" +backgou +"your are welcome ");
+      
+    </script>
 </body>
+
 </html>
